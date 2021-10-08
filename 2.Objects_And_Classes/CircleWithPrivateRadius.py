@@ -8,7 +8,7 @@ outside the class. To make a data field accessible for the client, provide a get
 its value. To enable a data field to be modified, provide a set method to set a new value.
 Colloquially, a get method is referred to as a getter (or accessor), and a set method is
 referred to as a setter (or mutator).
-A get method has the following header:
+A get method has the following header
 '''
 
 import math
