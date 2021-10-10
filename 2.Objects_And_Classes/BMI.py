@@ -1,6 +1,3 @@
-from _typeshed import Self
-
-
 class BMI:
     def __init__ (self, name, age, weight, height):
         self.__name = name
