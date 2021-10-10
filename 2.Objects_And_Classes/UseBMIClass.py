@@ -13,7 +13,7 @@ class BMI:
         return round(bmi * 100) / 100
 
     def getStatus(self):
-        bmi = self.getBMI
+        bmi = self.getBMI()
         if bmi < 18.5:
             return "Underweight"
         elif bmi < 25:
