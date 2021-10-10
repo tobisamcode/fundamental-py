@@ -17,3 +17,23 @@ class BMI:
 
     def getStatus(self):
         bmi = self.getBMI
+        if bmi < 18.5:
+            return "Underweight"
+        elif bmi < 25:
+            return "Normal"
+        elif bmi < 30:
+            return "Overweight"
+        else:
+            return "Obese"
+        
+    def getName(self):
+        return self.__name
+
+    def getAge(self):
+        return self.__age
+
+    def getWeight(self):
+        return self.__weight
+
+    def getHeight(self):
+        return self.__height
