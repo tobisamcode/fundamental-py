@@ -3,6 +3,9 @@
 s1 = str() # Craet an empty string object
 s2 = str('Welcome') # Create a string object for welcome
 
+s1 = " " # Same as s1 = str()
+s2 = "Welcome" # Same as s2 = str("Welcome")
+
 
 # Functions for Strings
 s = "welcome"
